@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*Font size is dynamic when put in em or % - em is x16 pixels
+  Why use one vs. the other? Static does not change (px) when browser defaults are changed
+  ZOOMING in browser does not change dynamic (em/%)
+  em/% are based on the parent, if we define font size in the body, these will multiply by what is in body
+  rem is same as em but is based on the ROOT browser defaults, ignores parent
+  rem is recommended in course
+  px would ignore parent and define it static*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', serif;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  width:5%;
+  border-color:grey;
+  border-width:5px;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.btn{
+  color:#EAF6F6;
+  background-color:#66BFBF;
+  padding:10px;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:10px;
+}
+
+.footer-link{
+  margin-left:25px;
+  margin-right:25px;
+  color:#11999E;
+}
+
+.dotted{
+  border-style:dotted;
+  width:10%;
+  color:#A9A9A9;
+}
+
+.p-ex {
+  font-weight: normal;
+  color: #66BFBF;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.profile{
+  margin-bottom:25px;
+  margin-top:50px;
+}
+
+.profile-pic {
+  margin-top: 25px;
+  border-radius: 100%;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.spaced-img {
+  float:left;
+  margin-right:30px;
+  height:auto;
+  margin-top:18px;
+}
+
+.spaced-img2 {
+  float:right;
+  margin-left:30px;
+  height:auto;
+  margin-top:18px;
+}
+
+.skill-row {
+  margin: auto;
+  width: 30%;
+  overflow:auto;
+  text-align:left;
+}
+
+.skill-row2 {
+  margin: 50px auto auto auto;
+  width: 30%;
+  overflow:auto;
+  text-align:left;
+}
+
+.skill-header {
+  font-weight: bolder;
+}
+
+.skill-text {
+  line-height: 2;
+}
+
+.skill-text2 {
+  line-height: 2;
+}
+
+.intro-text {
+  width:30%;
+  margin:auto;
+}
+
+.contact-me{
+  margin-bottom:50px;
+  min-height:100px;
+}
+
+.footer{
+  background-color:#66BFBF;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:100px;
+}
+
+.copyright{
+  color:#EAF6F6;
+  margin-top:30px;
+}
